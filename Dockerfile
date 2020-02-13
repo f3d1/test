@@ -2,5 +2,5 @@
 From tomcat:8-jre8 
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+MAINTAINER "fedi haddar" 
+COPY /var/jenkins_home/workspace/final-deploy-job-pipeline/webapp/target/webapp.war /usr/local/tomcat/webapps
